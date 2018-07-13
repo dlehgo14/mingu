@@ -16,7 +16,7 @@ class KakaoController < ApplicationController
 				message: {
 					text: "안녕하세요 제 이름은 밍구,... 아니 민지에요. 성이 민이고 이름이 지랍니다. 하하하 놀라셨어요? 많이들 그렇게 놀라고는 한답니다!",
 					photo: {
-						url: "https://afternoon-reef-22396.herokuapp.com/%EB%8B%A4%EB%9E%8C%EC%A5%90.png",
+						url: "https://sleepy-plains-17682.herokuapp.com/%EC%A2%8B%EC%95%84%ED%95%98%EB%8A%94%EA%B2%83.jpg",
 						width: 640,
 						height: 480
 					}
@@ -37,7 +37,7 @@ class KakaoController < ApplicationController
 				message: {
 					text: "저는 20대에요..!\n\n\n\n....여자 나이를 물어보는건 반칙이라구!! 그렇게 많지 않아!!",
 					photo: {
-					    url: "https://s3.ap-northeast-2.amazonaws.com/tongilstorage/kakaochat/3.PNG",
+					    url: "https://sleepy-plains-17682.herokuapp.com/%EC%A2%8B%EC%95%84%ED%95%98%EB%8A%94%EA%B2%83.jpg",
 					    width: 640,
 					    height: 480
 					}
@@ -53,7 +53,7 @@ class KakaoController < ApplicationController
 				message: {
 					text: "제 성격은 밝고 쾌활해요!! 모든 일이든 긍정적으로 생각하고 둥글둥글하답니다!! \n 하지만 항상 그런건 아니에요.. 가끔 화가 날때면 정말 무섭다구요.. 그러니까 상처주지 말아요!!!",
 					photo: {
-					    url: "https://s3.ap-northeast-2.amazonaws.com/tongilstorage/kakaochat/3.PNG",
+					    url: "https://sleepy-plains-17682.herokuapp.com/%EC%A2%8B%EC%95%84%ED%95%98%EB%8A%94%EA%B2%83.jpg",
 					    width: 640,
 					    height: 480
 					}
@@ -69,7 +69,7 @@ class KakaoController < ApplicationController
 				message: {
 					text: "허허.. 자네 나의 특징이 궁금한가... 그렇다면.. 나의 인스타에 놀러오게나",
 					photo: {
-					    url: "https://s3.ap-northeast-2.amazonaws.com/tongilstorage/kakaochat/3.PNG",
+					    url: "https://sleepy-plains-17682.herokuapp.com/%EC%A2%8B%EC%95%84%ED%95%98%EB%8A%94%EA%B2%83.jpg",
 					    width: 640,
 					    height: 480
 					}
