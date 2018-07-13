@@ -89,7 +89,7 @@ class KakaoController < ApplicationController
 				message: {
 					text: "저는 고구마를 좋아해요! 그리고 브로콜리랑 양배추도 좋아해요.... 사실은 닭발이 먹고싶어요... 찜닭도 먹고싶고 낙곱새도 먹고싶어요... 다이어트 너무 힘들어요ㅜㅜ",
 					photo: {
-					    url: "https://s3.ap-northeast-2.amazonaws.com/tongilstorage/kakaochat/3.PNG",
+					    url: "https://sleepy-plains-17682.herokuapp.com/%EC%A2%8B%EC%95%84%ED%95%98%EB%8A%94%EA%B2%83.jpg",
 					    width: 640,
 					    height: 480
 					}
@@ -143,6 +143,7 @@ class KakaoController < ApplicationController
 					buttons: ["남자친구 어디가 좋아요?", "아..그렇군요"]
 				}
 			}
+			render json: @msg, status: :ok
 		elsif @response == "남자친구 어디가 좋아요?"
 			@msg = {
 				message: {
@@ -152,6 +153,7 @@ class KakaoController < ApplicationController
 					type: "text"
 				}
 			}
+			render json: @msg, status: :ok
 		else
 			@msg = {
 				message: {
