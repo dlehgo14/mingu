@@ -122,7 +122,7 @@ class KakaoController < ApplicationController
 				}
 			}
 			render json: @msg, status: :ok
-		elsif @response == "아니요" || "아무것도 아니에요"
+		elsif @response == "아니요" ||@response == "아무것도 아니에요" ||@response == "아..그렇군요"
 			@msg = {
 				message: {
 					text: "싱겁네요..."
